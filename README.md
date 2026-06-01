@@ -94,4 +94,4 @@ Age also appears to have influenced survival, although the relationship was less
 [gender]: images/gender.png
 [class]: images/class.png
 [genclass]: images/genclass.png
-
+https://roadmap.sh/projects/titanic-eda-python
