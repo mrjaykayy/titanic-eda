@@ -1,5 +1,18 @@
-# titanic-eda
-Short Exploratory Data Analysis on the Titanic Dataset using pandas and matplotlib.
+# Titanic EDA
+
+## Project Overview
+
+This project explores the Titanic passenger dataset using Pandas and Matplotlib. The goal is to identify factors associated with passenger survival and uncover patterns related to age, gender, and passenger class.
+
+## Dataset
+
+Source: Kaggle Titanic Dataset
+
+## Tools Used
+
+- Python
+- Pandas
+- Matplotlib
 
 # Survival Rate Analysis(Age)
 ![Age Distribution][age]
@@ -68,6 +81,14 @@ As we can see in the data below, there are few things we found out:<br>
 
 **Interesting**<br>
 The lower classes comprised of largely males. As we are aware of, males have a less survival rate of only 18.9%. Whereas the upper and middle classes comprised of proportionally more females which could also be the underlying cause of high survival between upper and middle classes.
+
+## Conclusion
+
+The analysis suggests that gender and passenger class were the strongest predictors of survival.
+
+Female passengers had substantially higher survival rates than males, while first-class passengers survived at much higher rates than passengers in lower classes.
+
+Age also appears to have influenced survival, although the relationship was less consistent than gender and class.
 
 [age]: images/age.png
 [gender]: images/gender.png
