@@ -2,6 +2,7 @@
 Short Exploratory Data Analysis on the Titanic Dataset using pandas and matplotlib.
 
 # Survival Rate Analysis(Age)
+![Age Distribution][age]
 **As we can see in the charts and the data**
 
 1. Infants and Toddlers have the highest survival rates, there could be numerous reason for this. However, the most fitting reason could be family protecting the younger ones first and the saying "Women And Children First!"<br>
@@ -42,6 +43,7 @@ Adult          39.0 %<br>
 Senior         27.0 %<br>
 
 # Survivors By Gender
+![Gender Distribution][gender]
 
 **Females survived more than males**<br>
 As we can see at first glance, 109 of the males survived while 233 of the females survived. But the shocking part is, even though the males were larger in numbers(577) , the survivors still comprised of mostly females.<br>
@@ -51,6 +53,7 @@ If we are talking about proportions then, the **survival rate** of females was *
 There could be various reasons for such a outcome. However, The saying women and children first seems to be more-fitted as per our analysis. However, it could also certainly be true that most of the females were from the age groups that had a high survival rate. Let's dig more.
 
 # Survivors By Class
+![Class Distribution][class]
 
 **Upper classes survived the most**<br>
 As we can see in the data below, there are few things we found out:<br>
@@ -61,7 +64,13 @@ As we can see in the data below, there are few things we found out:<br>
 
 # Correlation Between Class And Gender
 #### The goal is to find out if the presence of a female population affected the survival rates of any of the classes.
+![Gender/Class Distribution][genclass]
 
 **Interesting**<br>
 The lower classes comprised of largely males. As we are aware of, males have a less survival rate of only 18.9%. Whereas the upper and middle classes comprised of proportionally more females which could also be the underlying cause of high survival between upper and middle classes.
+
+[age]: "images/age.png"
+[gender]: "images/gender.png"
+[class]: "images/class.png"
+[genclass]: "images/genclass.png"
 
