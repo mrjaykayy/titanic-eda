@@ -69,8 +69,8 @@ As we can see in the data below, there are few things we found out:<br>
 **Interesting**<br>
 The lower classes comprised of largely males. As we are aware of, males have a less survival rate of only 18.9%. Whereas the upper and middle classes comprised of proportionally more females which could also be the underlying cause of high survival between upper and middle classes.
 
-[age]: "images/age.png"
-[gender]: "images/gender.png"
-[class]: "images/class.png"
-[genclass]: "images/genclass.png"
+[age]: images/age.png
+[gender]: images/gender.png
+[class]: images/class.png
+[genclass]: images/genclass.png
 
